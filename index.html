@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <title>Tarjetas</title>
+    <link href="styles.css" type="text/css" rel="stylesheet"/>
+    <script src="aaa.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    
+    
+    
+<body>
+
+
+    <section class="lateral">
+        <label class="nombre">
+  
+            NOMBRE Y APELLIDOS:*
+            <br>
+            <input type="text" id="PonerNombre" onkeyup="traerDatosNombre()" maxlength="25"  >
+  
+        </label>
+        <label class="cod">
+        NUMERO DE SU TARJETA:*
+        <br>
+        <input type="text" id="PonerCod" onkeyup="traerDatosCod()" maxlength="20">
+        
+        </label>
+        <label class="cvc">
+        CVC (codigo de seguridad): *
+        <br>
+            <input type="text" id="PonerCvc" onkeyup="codCorto()" maxlength="3">
+        </label>
+        
+        <input type="submit" id="boton" onclick="completar()" value="PASAR DATOS">
+        
+        <p id="corroborar">Los campos que estan con " * " deben ser completados obligatoriamente </p>
+    </section>    
+
+    
+    
+    <section class="tarjeta">
+     
+        <div class="nombreBanco">
+        Banco
+        </div>
+        <div id="codPersonal">
+        0000 0000 0000 0000
+        </div>
+        <div id="nombrePersonal">
+        Nombre
+        </div>
+    </section>
+    
+    <section class="tarjetaAtras">
+    
+        <div class="pasador">
+        
+        </div>
+    
+        <div class="codCorto">
+            
+        <div id="codColocar">123</div>    
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    <section class="lateralColor">
+    
+    </section>
+   
+    
+</body>
+</html>
