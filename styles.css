@@ -213,10 +213,10 @@ body {
 .datos{
     
     width: 250px;
-    margin-left: 1113px;
+    margin-left: 900px;
     height: 70px;
     color:white;
-    margin-top: 500px;
+    margin-top: 550px;
     z-index: 1;
     position:absolute;
     font-size: 17px;
@@ -248,6 +248,10 @@ body {
         top:20px
         
     }
+    .datos{
+        display:none
+        
+    }
 }
 @media only screen and (max-width:800px){
     .lateral{
@@ -268,6 +272,8 @@ body {
     body{
         height:700px
     }
+    
+    
 }
 @media (max-width:400px){
     .lateral{
@@ -291,6 +297,6 @@ body {
         top:250px;
     }
     body{
-        height: 900px
+        height: 1500px
     }
 }
