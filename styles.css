@@ -1,9 +1,11 @@
 body {
     
-    background-color: #B3ECE4;
+    background-image:url("https://media.istockphoto.com/vectors/blue-brush-pattern-background-vector-id1295094894?k=20&m=1295094894&s=612x612&w=0&h=gs8Oe_UXiSa-VTg6fYsY2955SAQt12-gs_B0ApzHQWI=");
     position:relative;
     margin:0;
-    padding:0
+    padding:0;
+    background-repeat: no-repeat;
+    background-size:cover
 }
 
 .lateral{
@@ -11,7 +13,7 @@ body {
     top:40px;
     width:400px;
     height: 500px;
-    margin-left:700px;
+    margin-left:690px;
     border-radius: 13px;
     position:absolute;
     
@@ -117,9 +119,11 @@ body {
 }
 .lateralColor{
     position: absolute;
-    background-color:#93A3A1;
+    background-image:url("https://media.istockphoto.com/vectors/light-blue-turquoise-color-gradient-defocused-blurred-motion-abstract-vector-id1371310881?b=1&k=20&m=1371310881&s=612x612&w=0&h=tZO8O0a1WPeXWXzwQlM8S6QjCQxeGLdH3u2X1Nz8G0w=");
     width: 400px;
     height: 625px;
+    background-repeat:no-repeat;
+    background-size:cover
         
 }
 
@@ -206,7 +210,7 @@ body {
     top:340px
 }
 
-@media only screen and (max-width:1020px){
+@media only screen and (max-width:1080px){
     
     .lateralColor{
        height:0 
@@ -233,15 +237,21 @@ body {
 @media only screen and (max-width:800px){
     .lateral{
         position:absolute;
-        margin-left:250px    
+        margin-left:250px;
+        height:400px
     }
     .tarjeta{
         position:absolute;
         left:50px;
+        height: 190px
     }
     .tarjetaAtras{
     position:absolute;
-    left:400px
+    left:400px;
+    height:190px
+    }
+    body{
+        height:700px
     }
 }
 @media (max-width:400px){
@@ -251,6 +261,11 @@ body {
         top:500px;
         width:340px
     }    
+    
+    
+    
+    
+    
     .tarjeta{
         position:absolute;
         left:13px
@@ -259,5 +274,8 @@ body {
         position:absolute;
         left:13px;
         top:250px;
+    }
+    body{
+        height: 900px
     }
 }
