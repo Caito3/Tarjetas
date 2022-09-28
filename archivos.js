@@ -1,12 +1,20 @@
 function traerDatosNombre() {
+    
+    
+    var nombre = document.getElementById("PonerNombre").value
+    var nombre = nombre.split(" ")
+    for( i = 0; i < nombre.length; i++){
+    nombre[i] = nombre[i][0].toUpperCase() + nombre[i].substr(1)
+    }
+    var nombre = nombre.join(" ")
    
-   var nombre = document.getElementById("PonerNombre").value
    
    document.getElementById("nombrePersonal").innerHTML= nombre;
     
       if( nombre == "" ){
       nombrePersonal.textContent= "Nombre y apellidos"
       }
+
 }
     
 
@@ -36,9 +44,10 @@ function codCorto(){
         
         codColocar.textContent= "123"
     }
+
+
+    
 }
-
-
 
 function completar(){
     

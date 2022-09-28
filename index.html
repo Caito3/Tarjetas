@@ -19,14 +19,14 @@
   
             NOMBRE Y APELLIDOS:*
             <br>
-            <input type="text" id="PonerNombre" onkeyup="traerDatosNombre()" maxlength="25"  >
+            <input type="text" id="PonerNombre" onkeyup="traerDatosNombre()" onblur="cambiar()" maxlength="25"  >
   
         </label>
 
         <label class="cod">
         NUMERO DE SU TARJETA:*
         <br>
-        <input type="text" id="PonerCod" onkeyup="traerDatosCod()" maxlength="16">
+        <input type="number" id="PonerCod" onkeyup="traerDatosCod()" maxlength="16">
         
         </label>
         <label class="cvc">
