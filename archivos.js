@@ -10,14 +10,18 @@ function traerDatosNombre() {
    
    
    document.getElementById("nombrePersonal").innerHTML= nombre;
-    
-      if( nombre == "" ){
-      nombrePersonal.textContent= "Nombre y apellidos"
-      }
-
+ 
+   
+   
+      
 }
     
-
+function nombres(){
+    var nombre = document.getElementById("PonerNombre").value
+   if( nombre == "" ){
+      nombrePersonal.textContent= "Nombre y apellidos"
+      }
+}
 function traerDatosCod(){
    
     var cod = document.getElementById("PonerCod").value;
