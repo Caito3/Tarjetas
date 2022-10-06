@@ -1,86 +1,48 @@
 <!DOCTYPE html>
+
 <html>
-<head>
- 
-    <title>Tarjetas</title>
-    <link href="styles.css" type="text/css" rel="stylesheet"/>
-    <script src="archivos.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://gogeticons.com/frontend/web/icons/data/6/0/8/8/credit%20cards_512.png">
-</head>
-    
-    
-    
-<body>
 
+    <head>
+    
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <script src="aaa.js" type="text/javascript"></script>
+        <title>Camiseta Seleccion 2022</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="https://img.icons8.com/metro/344/football2.png">
 
-    <section class="lateral">
-        <label class="nombre">
-  
-            NOMBRE Y APELLIDOS:*
-            <br>
-            <input type="text" id="PonerNombre" onkeyup="traerDatosNombre()" onblur="nombres()" maxlength="25"  >
-  
-        </label>
+    </head>
 
-        <label class="cod">
-        NUMERO DE SU TARJETA:*
-        <br>
-        <input type="number" id="PonerCod" onkeyup="traerDatosCod()" maxlength="16">
+    <body>
         
-        </label>
-        <label class="cvc">
-        CVC (codigo de seguridad): *
-        <br>
-            <input type="text" id="PonerCvc" onkeyup="codCorto()" maxlength="3">
-        </label>
-        
-        <input type="submit" id="boton" onclick="completar()" value="PASAR DATOS">
-        
-        <p id="corroborar">Los campos que estan con " * " deben ser completados obligatoriamente </p>
-    </section>    
-
-    
-    
-    <section class="tarjeta">
-     
-        <div class="nombreBanco">
-        Banco
-        </div>
-        <div id="codPersonal">
-        0000 0000 0000 0000
-        </div>
-        <div id="nombrePersonal">
-        Nombre y apellidos
-        </div>
-    </section>
-    
-    <section class="tarjetaAtras">
-    
-        <div class="pasador">
-        
-        </div>
-    
-        <div class="codCorto">
-            
-        <div id="codColocar">123</div>    
-        </div>
+    <section class="nombre">  
+    <p class="letras"> CAMISETA DE LA SELECCIÓN 2022 </p>
     </section>
     
     
-                
     
     
     
-    
-    <section class="lateralColor">
-    
+        
+        
+    <section class="camiseta">
+        
+        
+        <img class="foto" src="https://assets.adidas.com/images/w_600,f_auto,q_auto/d88ae2138faf49be8f74aeca012c62eb_9366/Camiseta_Titular_Argentina_22_Messi_Blanco_HL8425_01_laydown.jpg">
     </section>
-   
+        <section class="caracteristicas">
+        
+           <p class="car">CARACTERISTICAS: </p>
+           <p >Presentaron la casaca que se usará la próxima Copa del Mundo . Está hecha con materiales reciclables.
+               entre sus novedades se destacan íconos nacionales y una tecnología que será clave en en el lugar donde se desarrollará el certamen ecuménico. Luego de varios meses de espera y mucha expectativa, los hinchas ya saben cómo es la flamante casaca que además tienen reminiscencias a otras usadas por la Albiceleste en otros Mundiales.
+            </p>
+            <button type="button" id="boton" onclick="aparecer()" > <a href="#mas" style="text-decoration:none;color:#3EC0E7">MAS CARACTERÍSTICAS</a></button>
+        </section>
+        
+        
+        <section id="mas">
+     <p class="camisetaCaracteristicas"> La base es tradicional y el escudo se mantiene igual. En una inspiración en la identidad nacional, transmite la emoción única que genera el fútbol en el país. Aunque hay un cambio radical en la espalda y en la mitad donde no está el bastón del medio y fue reemplazado por la bandera en sentido vertical, que recuerda la manera como los hinchas cuelgan el símbolo patrio de su país en los balcones durante cada Copa Mundial; y por el otro, incorpora el Sol de Mayo -otro de sus emblemas nacionales-en la parte posterior del cuello. Hecha con materiales ciento por ciento reciclados e incorpora la tecnología “Heat Ready” para mantener la piel fresca y seca en todo momento de los partidos.</p>
+        
     
-    
-    
-    <section class="datos">La pagina fue desarrollada por Carlos Julian Lopez</section>
-    
-</body>
+        </section>
+    </body>
 </html>

@@ -1,302 +1,251 @@
-body {
-    
-    background-image:url("https://media.istockphoto.com/vectors/blue-brush-pattern-background-vector-id1295094894?k=20&m=1295094894&s=612x612&w=0&h=gs8Oe_UXiSa-VTg6fYsY2955SAQt12-gs_B0ApzHQWI=");
-    position:relative;
-    margin:0;
-    padding:0;
-    background-repeat: no-repeat;
-    background-size:cover
-}
-
-.lateral{
-    background-color:white;
-    top:40px;
-    width:400px;
-    height: 500px;
-    margin-left:690px;
-    border-radius: 13px;
-    position:absolute;
-    
-    
-}
-.tarjeta{
-    background-color: #134EFD;
-    width: 340px;
-    height:200px;
-    left:200px;
-    top: 103px;
-    bottom: 400px;
-    position: absolute;
-    border-radius:13px;
-    z-index: 1
-}
-.tarjetaAtras{
-    color:blue;
-    
-    background-color: #D3D8D7;
-    width:340px;
-    height: 200px;
-    left: 140px;
-    top:340px;
-    bottom: 400px;
-    position:absolute;
-    border-radius:13px;
-    z-index: 1
-}
-
 .nombre{
-    margin-left:50px;
-    margin-top:20px;
-    font-size:20px;
-    font-family:sans-serif;
-    position: absolute;
-    font-family: courier new;
     
+    width: 500px;
+    background-color: #3EC0E7;
+    height: 122px;
+    border-radius:13px;
+    margin-left: 400px;
+    margin-top: 40px
 }
 
-#PonerNombre{
-    margin-left: 20px;
-    background-color: #D7E0E4;
-    border-radius: 3px;
-    border: solid, 1px;
-    border-color:#D7E0E4;
-    width: 250px;
-    height: 25px
-}
-.cod{
-     margin-left:50px;
-    margin-top:90px;
-    font-size:20px;
-    font-family:sans-serif;
-    position: absolute;
-    font-family: courier new
-}
 
-#PonerCod{
-      margin-left: 20px;
-    background-color: #D7E0E4;
-    border-radius: 3px;
-    border: solid, 1px;
-    border-color:#D7E0E4;
-    width: 250px;
-    height: 25px
-}
-.cvc{
-     margin-left:50px;
-    margin-top:150px;
-    font-size:20px;
-    font-family:sans-serif;
-    position: absolute;
-    font-family: courier new
-}
-#PonerCvc{
+
+.letras{
     
-     margin-left: 20px;
-    background-color: #D7E0E4;
-    border-radius: 3px;
-    border: solid, 1px;
-    border-color:#D7E0E4;
-    width: 250px;
-    height: 25px
-}
-#boton{
-    width: 200px;
-    margin-left:103px;
-    margin-top:250px;
-    font-size: 20px;
-    font-family: courier new;
-    height: 70px;    
-    position: absolute;
-    border-radius: 13px;
-    border-color: #EAF0F3;
-    border:none;
-    cursor: pointer;
-    font-weight: 700;
-}
-#boton:hover{
-    background-color:#B3C1BF
+    font-family: arial;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    color:white;
+    height: 122px;
+    transition: 3s
     
-}
-.lateralColor{
-    position: absolute;
-    background-image:url("https://media.istockphoto.com/vectors/light-blue-turquoise-color-gradient-defocused-blurred-motion-abstract-vector-id1371310881?b=1&k=20&m=1371310881&s=612x612&w=0&h=tZO8O0a1WPeXWXzwQlM8S6QjCQxeGLdH3u2X1Nz8G0w=");
-    width: 400px;
-    height: 625px;
-    background-repeat:no-repeat;
-    background-size:cover
         
 }
-
-.nombreBanco{
-    color:white;
-
-    position:absolute;
-    left:120px;
-    top: 40px;
-    font-size: 25px;
-    font-family:Andale Mono, monospace;
-}
-#codPersonal{
-    color:white;
-    position:absolute;
-    left: 40px;
-    top: 120px;
-    font-size:25px;
-    font-family:Andale Mono, monospace
-}
-#nombrePersonal{
-    color:white;
-    position:absolute;
-    left:20px;
-    top:150px;
-    font-size:25px;
-    font-family:Andale Mono, monospace
+.camiseta{
+    width: 940px;
+    background-color: #3EC0E7;
+    height: 450px;
+    border-radius: 13px;
+    margin-left:130px;
+    margin-top: 70px;
+    
+   
 }
 
 
+body{
+    background-image: url("https://i.pinimg.com/736x/43/72/0b/43720b453c7f5541263154ed7bae4dcb.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 
-
-
-
-
-
-
-
-
-.pasador{
-    color:black;
-    background-color:black;
-    position:absolute;
-    width:100%;
-    height:40px;
-    top:20px
+}
+.foto{
+    
+    height: 400px;
+    width: 400px;
+    border-radius:13px;
     
 }
-.codCorto{
-    width:140px;
-    position:absolute;
-    background-color:#B3BEC8;
-    left:120px;
-    top: 120px;
-    color:black;
-    font-size:20px;
-    height:20px;
-    border-radius:3px
+.caracteristicas{
+    
+    font-family:arial;
+    font-size: 22px;
+    position: absolute;
+    left: 590px;
+    top:245px;
+    width: 450px;
+    color:white;
+    transition:1s
+}
+.car{
+    margin-left:70px;
+    
+        
+    font-weight:bolder;
+    font-size: 25px
+    
 }
 
-#codColocar{
-    color:black;
-    background-color:#AAADB1;
-    height:20px;
-    width:40px;
-    font-size:20px;
-    position:absolute;
-    left: 120px;
-    border-radius:3px   
-}
+
+
+
+
+
+
+.foto:hover{
+transform:scale(1.3)    
     
-.tarjeta:hover{
-    transform: scale(1.3)
-}
-.tarjetaAtras:hover{
     
+}
+#boton{
+    
+    height: 40px;
+    background-color: white;
+    border-radius:13px;
+    border: none;
+    margin-left: 70px;
+    color:#3EC0E7;
+    
+    
+}
+#boton:hover{
     transform:scale(1.3)
 }
 
-#corroborar{
+#mas{
+    height: 300px;
+    background-color: #3EC0E7;
+    width: 900px;
+    margin-left:150px;
+    margin top: 70px;
+    border-radius: 13px;
+    position:relative;
+    top: 13px;
+    display:none;
+    transition:1s
+    
+}
 
-    position:absolute;
-    left:20px;
-    top:340px
+
+.camisetaCaracteristicas{
+  font-family:arial;
+  color:white;
+  font-size:22px;
+  margin-left: 22px;
+  margin-top: 22px;
+  position: absolute;
+  text-align:center;
+  
 }
 
-.datos{
-    
-    width: 250px;
-    margin-left: 900px;
-    height: 70px;
-    color:white;
-    margin-top: 550px;
-    z-index: 1;
-    position:absolute;
-    font-size: 17px;
-    font-family:arial;
-    text-align:center
+
+  
+.letras:hover{
+    color: #3EC0E7;
+    background-color: white;
+
+        
+    border-radius:13px    
 }
-@media only screen and (max-width:1080px){
-    body{
-        height:900px
-    }
-    .lateralColor{
-       height:0 
-    }
-    .lateral{
-        
-        position:absolute;
-        margin-left:300px;
-        top:250px
-    }
-    .tarjeta{
-        position:absolute;
-        left:70px;
-        top:20px
-        
-    }
-    .tarjetaAtras{
-        position:absolute;
-        left: 440px;
-        top:20px
-        
-    }
-    .datos{
-        display:none
-        
-    }
+
+.caracteristicas:hover{
+    transform:scale(1.1)
 }
-@media only screen and (max-width:800px){
-    .lateral{
-        position:absolute;
-        margin-left:250px;
-        height:400px
-    }
-    .tarjeta{
-        position:absolute;
-        left:50px;
-        height: 190px
-    }
-    .tarjetaAtras{
-    position:absolute;
-    left:400px;
-    height:190px
-    }
-    body{
-        height:700px
-    }
-    
-    
+
+
+
+#mas:hover{
+    transform:scale(1.1)
 }
-@media (max-width:400px){
-    .lateral{
-        position:absolute;
-        margin-left:13px;
-        top:500px;
-        width:340px
-    }    
+
+@media only screen and  (max-width: 1080px){
     
-    
-    
-    
-    
-    .tarjeta{
-        position:absolute;
-        left:13px
+    .nombre{
+        
+        margin-left:300px
     }
-    .tarjetaAtras{
-        position:absolute;
-        left:13px;
-        top:250px;
+    .camiseta {
+        width: 870px;
+        margin-left: 40px
+            
     }
-    body{
-        height: 1500px
+
+    .caracteristicas{
+        
+        left: 470px
+    }
+    #mas{
+        margin-left: 30px        
+                }
+}
+
+@media (max-width:900px) {
+    
+    
+    .nombre{
+       margin-left: 90px
+    }
+    .camiseta{
+        width: 550px;
+        margin-left: 13px
+    }
+    .caracteristicas{
+        width:370px;
+        left:200px;
+        font-size:20px
+        
+    }
+    .foto{
+        height:170px;
+        width: 170px    
+    }
+    #mas{
+     width: 550px;
+     margin-left: 13px;
     }
 }
+
+
+
+
+
+
+
+
+.camisetaCaracteristicas{
+    
+    font-size: 22px
+}
+.foto:hover{
+    transform:scale(1.3)
+
+}
+
+@media (max-width:700px){
+    .nombre{
+        margin-left: 3px;
+        margin-top:30px;
+        width: 400px;
+        height: 170px
+    }
+    .letras{
+        
+        
+        height:170px
+    }
+    
+    .camiseta{
+        width: 400px;
+        margin-left:3px;
+        margin-top:200px
+    }
+    .caracteristicas{
+        
+        left:40px;
+        margin-top:150px;
+        top:280px
+    }
+    .foto{
+        height: 150px;
+        width:150px;
+        margin-left: 150px;
+        margin-top: -122px
+    }
+    
+    #mas{
+        
+        width:400px;
+        margin-left:3px;
+    }
+    .camisetaCaracteristicas{
+        font-size: 15px;
+        margin-left:3px
+    }
+    .boton{
+        height: 22px;
+        width: 22px
+    }
+}
+
+
